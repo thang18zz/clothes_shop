@@ -1,0 +1,41 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Codegraph Binaries and SEA configuration
+codegraph.exe
+codegraph.bundle.mjs
+sea-config.json
+THIRD_PARTY_NOTICES.md
+
+# Keep Codegraph Map and Database
+!codegraph.py
+!.codegraph/
+
+# Node (For future Next.js setup)
+node_modules/
+.pnp
+.pnp.js
+coverage/
+.next/
+out/
+build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# IDE and Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.opencode/

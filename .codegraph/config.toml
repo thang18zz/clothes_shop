@@ -1,0 +1,10 @@
+# Portable CodeGraph project configuration.
+# One budget unit permits at most one serialized UTF-8 byte.
+map_target_tokens = 1000
+map_hard_cap_tokens = 1500
+mcp_default_budget = 2000
+mcp_hard_cap = 3000
+compact_entity_limit = 250
+generated_file_size_limit = 1000000
+source_file_size_limit = 5000000
+exclude = []

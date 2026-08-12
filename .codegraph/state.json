@@ -1,0 +1,67 @@
+{
+  "version": "0.1.0",
+  "project_root": "E:\\clothes_shop",
+  "graph_revision": 1,
+  "graph_digest": "fce78230fe93d3867668388c7dfe2be8bde5404f34fcc7353c6fdd0153dabb68",
+  "last_known_good_revision": 1,
+  "source_fingerprint": "012f44b954a4970cb0607514d6fba27394b71c8f7d3d5ca7f4d6a6454cba9ac2",
+  "semantic_config_hash": "2f2dbdcebcd7fb233499baeeb5b183285d8df4cf680bb877d593e18995968fc3",
+  "graph_status": "FRESH",
+  "mode": "HYBRID",
+  "profile": {
+    "file_count": 1,
+    "entity_count": 427,
+    "relation_count": 2803,
+    "region_count": 2,
+    "language_count": 1,
+    "languages": [
+      "javascript"
+    ],
+    "cross_region_relation_count": 0,
+    "estimated_codegraph_tokens": 1377,
+    "parse_failure_rate": 0,
+    "unresolved_relation_rate": 0.7591865858009276,
+    "parse_latency_ms": 402.73539999999997,
+    "sync_latency_ms": 596.1767,
+    "unsupported_file_count": 1
+  },
+  "health": {
+    "status": "FRESH",
+    "supported_file_coverage": 0.5,
+    "parse_success_rate": 1,
+    "resolved_import_rate": 0,
+    "resolved_call_rate": 0.26871019108280253,
+    "low_confidence_relation_count": 141,
+    "unknown_relation_count": 1970,
+    "stale_file_count": 0,
+    "stale_files": [],
+    "parse_failures": [],
+    "risk_flags": [
+      "AMBIGUOUS_SYMBOL",
+      "CONDITIONAL_COMPILATION",
+      "CROSS_LANGUAGE_BOUNDARY",
+      "DEPENDENCY_INJECTION",
+      "DYNAMIC_DISPATCH",
+      "GENERATED_CODE",
+      "REFLECTION",
+      "RUNTIME_REGISTRATION",
+      "UNSUPPORTED_SEMANTICS"
+    ],
+    "impact_completeness": "INCOMPLETE",
+    "scan_diagnostics": [],
+    "unsupported_files": [
+      {
+        "path": "sea-config.json",
+        "classification": "CONFIG",
+        "content_hash": "0c7f5148de028596663e05d5c9c8bc0818285231e860926f2b196f009ccecae6"
+      }
+    ],
+    "unsupported_file_count": 1
+  },
+  "stale_files": [],
+  "parse_failures": [],
+  "codegraph_tokens": 1377,
+  "map_sha256": "98a80317e35a1f2d2958f01a61f913b72fa7bdda315e3ba845c35aadb7f7b49e",
+  "projection_config_hash": "330e3353f60ea80df6e6db0ba9f8f6301ad07030c759cc8a971b3e6748f03fdc",
+  "generated_at": "2026-08-12T13:52:55.928Z"
+}
