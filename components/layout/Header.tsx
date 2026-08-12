@@ -59,8 +59,12 @@ export default function Header() {
               <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5" />
             </div>
 
-            <Link href="/wishlist" className="p-2 text-slate-600 hover:text-brand-600 transition relative">
+            <Link href="/wishlist" className="p-2 text-slate-600 hover:text-brand-600 transition relative" aria-label="Danh sách yêu thích">
               <Heart className="w-5 h-5" />
+            </Link>
+
+            <Link href="/account" className="p-2 text-slate-600 hover:text-brand-600 transition relative flex items-center space-x-1" aria-label="Tài khoản & Đăng nhập">
+              <span className="hidden sm:inline text-xs font-semibold text-slate-700 hover:text-brand-600">Tài khoản</span>
             </Link>
 
             <button
