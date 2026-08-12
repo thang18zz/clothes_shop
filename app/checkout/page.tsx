@@ -27,6 +27,7 @@ export default function CheckoutPage() {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [orderNumber, setOrderNumber] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(true); // Default check for logged-in status
 
   const shippingFee = selectedCarrier.fee;
   const finalTotal = getTotal() + shippingFee;

@@ -30,6 +30,18 @@ export async function POST(request: Request) {
       items // Mảng các mặt hàng: [{ variantId, quantity }]
     } = body;
 
+    // 0. QUY TẮC CẤM MUA HÀNG ẨN DÂN: Khách hàng bắt buộc phải đăng nhập
+    if (!customerId) {
+      return NextResponse.json(
+        { 
+          success: false, 
+          error: 'Unauthorized', 
+          message: 'Trang web bán quần áo chuyên nghiệp không hỗ trợ mua hàng ẩn danh. Vui lòng đăng nhập hoặc tạo tài khoản để đặt hàng và tích lũy điểm thưởng!' 
+        },
+        { status: 401 }
+      );
+    }
+
     // 1. Kiểm tra tính hợp lệ của dữ liệu đầu vào
     if (!items || !Array.isArray(items) || items.length === 0) {
       return NextResponse.json(
